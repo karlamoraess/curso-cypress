@@ -8,7 +8,7 @@ describe('Api Alurapic', () => {
                 expect(res.status).to.be.equal(200)
                 expect(res.body).is.not.empty
                 expect(res.body).to.have.property('id')
-                expect(res.body.id).to.be.equal(4)
+                expect(res.body.id).to.be.equal(3)
             })
     })
 })
