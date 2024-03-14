@@ -18,3 +18,5 @@ class Cadastro {
         cy.get('[data-test="btnRegister"]').click();
     }
 }
+
+export default new Cadastro();
